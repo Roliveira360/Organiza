@@ -316,3 +316,11 @@ html::-webkit-scrollbar,body::-webkit-scrollbar{display:none;width:0;height:0}
 }
 
 .vacation-head-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.vacation-analytics{margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}.vacation-analytics-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}.vacation-analytics-head h3{margin:0;color:var(--ink);font-size:15px}.vacation-analytics-head p{margin:5px 0 0}.vacation-total-count{white-space:nowrap;border-radius:999px;background:#e9f5ef;color:#12845f;padding:6px 10px;font-size:12px;font-weight:800}.vacation-chart-switch{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0 10px}.vacation-chart-switch .filter-btn{cursor:pointer}.vacation-chart-title{margin-bottom:8px;color:#435149;font-size:12px;font-weight:700}.vacation-chart-bars{display:grid;gap:8px}.vacation-chart-row{display:grid;grid-template-columns:minmax(95px,1fr) minmax(80px,2fr) 28px;align-items:center;gap:9px;font-size:12px}.vacation-chart-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#34423a}.vacation-chart-track{height:11px;border-radius:7px;background:#edf1ee;overflow:hidden}.vacation-chart-track i{display:block;height:100%;border-radius:7px;background:#12845f}.vacation-chart-row>b{text-align:right;color:#26342d}.vacation-head-actions .btn{white-space:nowrap}@media(max-width:600px){.vacation-head-actions{width:100%}.vacation-head-actions .btn{font-size:11px;padding:8px 9px}.vacation-chart-row{grid-template-columns:minmax(78px,1fr) minmax(50px,1.4fr) 24px;gap:6px}}
+
+/* Coluna de exclusão compacta no celular */
+@media(max-width:600px){
+  .attendance-team th.exclude-col,.attendance-team td.exclude-col{width:30px!important;min-width:30px!important;max-width:30px!important;padding-left:1px!important;padding-right:1px!important;text-align:center!important}
+  .attendance-team .role-col{left:205px!important}
+  .attendance-team .month-exclude{width:24px!important;height:24px!important;padding:0!important;margin:0!important;line-height:24px!important;font-size:15px!important}
+  .attendance-team.summary-table .summary-label{width:205px!important;min-width:205px!important;max-width:205px!important}
+}
